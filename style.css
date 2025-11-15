@@ -1,2 +1,9 @@
 /* This is first file for css  */
 /* lets dress up html */
+
+article{
+    background-color: magenta;
+}
+p{
+    background-color: purple;
+}

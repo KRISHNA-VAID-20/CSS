@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css</title>
+    <!-- using internal Css -->
+     <!-- important is used to be applied first -->
+      <!-- inline is given more prefernce than internal and external -->
+     <style>
+        p{
+            background-color: lightblue !important; 
+        }
+     </style>
+    <!-- css follows order wise  -->
+     <link rel="stylesheet" href="style.css"> 
+
+     <!-- accesing elemnets using elemnet,id,class,grouping etc -->
+    <style>
+        p{
+            color: mediumseagreen;
+        }
+
+        #p2{
+            color: khaki;
+        }
+        .art1{
+            background-color: salmon;
+        }
+        p,article{
+            color: brown;
+        }
+    </style>
+
+</head>
+<body>
+
+    <h1>Krishna Vaid</h1>
+
+    <!-- using inline Css -->
+    <p style="background-color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id quam nulla debitis corporis asperiores itaque voluptatum facilis quas. Sequi quas earum maiores corrupti inventore necessitatibus accusamus ipsa debitis quia maxime placeat ad, temporibus eos minima tempora repellendus laboriosam eveniet at accusantium nisi dicta nostrum officia nulla. Consequuntur id quasi qui?</p>
+
+
+    <p id="p2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo architecto adipisci ab repellat dolor id aliquid? Quod in rem tenetur?</p>
+    
+    <article class="art1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis, nisi.</article>
+</body>
+</html>
