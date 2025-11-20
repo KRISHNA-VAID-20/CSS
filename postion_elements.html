@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position elements</title>
+    <style>
+
+        div{
+            border: 10px solid black;
+            size: 8000px;
+        }
+        img{
+            margin: 15px;
+            /* by default static is there  */
+            
+        }
+        .k1{
+            top: 30px;
+            position: relative; 
+            /* maintaned the gap left  */
+
+        }
+        .k2{
+            position: fixed;
+            /* gets fixed upon whole window  */
+
+        }
+        .k3{
+            position: sticky;
+            top: 40px;
+            /* nly follows its parent  */
+
+        }
+        .k4{
+            top: 60px;
+            position: relative;
+
+
+        }
+        
+    </style>
+</head>
+
+<body> 
+
+    <div class="container">
+
+        <img src="lord krishna.jpeg" alt="krishnaji" class="k1" width="100px" height="100px">
+        <img src="lord krishna.jpeg" alt="krishnaji" class="k2" width="100px" height="100px">
+        <img src="lord krishna.jpeg" alt="krishnaji" class="k3" width="100px" height="100px">
+        <img src="lord krishna.jpeg" alt="krishnaji" class="k4" width="100px" height="100px">
+
+    </div>
+    
+</body>
+</html>
