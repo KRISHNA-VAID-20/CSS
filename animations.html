@@ -7,10 +7,14 @@
     <style>
         .container{
             background-color:beige ;
+            border: 5px solid black;
+            border-radius: 5px;
             height: 600px;
             display: flex;
         }
         .box{
+            padding: 5px;
+            margin: 5px;
             height: 100px;
             width: 200px;
             border: 3px solid black;
@@ -19,7 +23,7 @@
             position: relative;
             animation-name: rightmove;
             animation-duration: 5s;
-            animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            animation-timing-function: linear;
             animation-iteration-count: infinite;
             animation-delay: 2s;
             animation-direction: alternate;
@@ -33,7 +37,7 @@
 
             to{
                 top: 0%;
-                left: 100%;
+                left: 85%;
             }
             
         }
