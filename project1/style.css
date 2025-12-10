@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background: #FFEFBA;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFFFFF, #FFEFBA);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFFFFF, #FFEFBA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.navbar{
+    width: 100%;
+    height: 60px;
+    background: #1f4037;  /* fallback for old browsers */
+    background: #283c86;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* text-align: center; */
+}
+
+#unlist{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+#unlist li p{
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out 0s;
+    
+}
+
+#unlist li p:hover{
+    transform: scale(1.1);
+
+}
+
+a{
+    font-weight: lighter;
+    color: rgb(240, 255, 255);
+    transition: all 0.3s ease-in-out 0s;
+}
+a:hover{
+    transform: scale(1.1)
+}
+
+.atags{
+    display: flex;
+    gap: 50px;
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 100px;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    list-style: none;
+    overflow: hidden;
+}
+
+.images li{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.images img{
+    max-width: 500px;
+    max-height: 500px;
+    width: auto;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0px 10px black;
+    transition: all 0.2s ease-in 0s;
+}
+
+img:hover{
+    transform: scale(1.05);
+}
+
+.images li p{
+    font-size: 1.5rem;
+    font-family: Verdana,Geneva,sans-serif;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
