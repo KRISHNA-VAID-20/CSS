@@ -25,6 +25,8 @@
     background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     /* text-align: center; */
+    border-radius: 2px;
+    box-shadow: 0px 0px 20px black;
 }
 
 #unlist{
@@ -53,7 +55,7 @@ a{
     transition: all 0.3s ease-in-out 0s;
 }
 a:hover{
-    transform: scale(1.1)
+    transform: scale(1.1);
 }
 
 .atags{
@@ -115,3 +117,17 @@ img:hover{
     font-weight: bold;
 }
 
+.footer{
+    color: #FFFFFF;
+    background: -webkit-linear-gradient(to right, #45a247, #283c86);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #45a247, #283c86); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width: 100%;
+    /* padding: 30px; */
+    text-align: center;
+    /* margin-top: auto; */
+    border-radius: 4px;
+    box-shadow: 0 0px 20px black;
+}
+.footer p{
+    font-size: 2rem;
+}
