@@ -110,10 +110,12 @@ img:hover{
 }
 
 .images li p{
-    font-size: 1.5rem;
+    font-size: 1.8rem;
+    margin-top: 10px;
     font-family: Verdana,Geneva,sans-serif;
     color: #333;
     text-align: center;
+    max-width: 500px;
     font-weight: bold;
 }
 
@@ -130,4 +132,40 @@ img:hover{
 }
 .footer p{
     font-size: 2rem;
+}
+
+.bachira{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+.bachira video{
+    border-radius: 10px;
+    box-shadow: 0 0px 10px black;
+
+}
+
+.naruto{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+.naruto video{
+    border-radius: 10px;
+    box-shadow: 0 0px 10px black;
+
+}
+.light{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+}
+
+.light video{
+    border-radius: 10px;
+    box-shadow: 0 0px 10px black;
+
 }
