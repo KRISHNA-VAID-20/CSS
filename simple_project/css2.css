@@ -1,10 +1,39 @@
-/* main{
-    background-color: antiquewhite;
-} */
-
 body{
-    background-color: antiquewhite;
+    background-color:beige;
 }
+
+h1{
+    color: black;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h3{
+      color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+fieldset{
+    border-radius: 10px;
+}
+
+section{
+    border-radius: 10px;
+}
+
 form{
-    background-color: white;
+    background-color: palegoldenrod;
+    border-radius: 10px;
+}
+
+.submit button{
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.submit button:hover{
+    background-color: greenyellow;
+    transform: scale(1.03);
 }
