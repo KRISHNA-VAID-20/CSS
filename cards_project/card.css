@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: blanchedalmond;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 300px;
+    height: 600px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px  black;
+    transition: all 0.2s ease-in 0ms;
+
+}
+
+.card:hover{
+    box-shadow: 0px 0px 50px  yellow;
+    transform: scale(1.1);
+
+}
+
+.card img{
+    width: 100%;
+    border-radius: 1px;
+    border-radius: 10px 10px 0 0;
+
+    
+}
+
+h3{
+    text-align: center;
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: bolder;
+}
+
+p{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.smallbox{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: aqua;  
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px black;
+    transition: all 0.2s ease-in 0ms;
+    flex-direction: row;
+}
+
+.smallbox img{
+    width: 30%;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+
+.smallbox p{
+    text-align: center;
+    margin: auto;
+    font-weight: bolder;
+}
+
+.smallbox a{
+    margin-right: 10px;
+}
+
+.smallbox:hover{
+    transform: scale(1.1);
+
+}
+
+.bluebox{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: violet;  
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px black;
+    transition: all 0.2s ease-in 0ms;
+
+}
+
+.bluebox p{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.bluebox:hover{
+    transform: scale(1.1);
+}
+
+.cancel{
+    width: 80%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    background-color: red;  
+    border-radius: 10px;
+    box-shadow: 0px 3px 10px black;
+    transition: all 0.2s ease-in 0ms;
+}
+
+.cancel p{
+    text-align: center;
+    margin: auto;
+    color: white;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.cancel:hover{
+    transform: scale(1.1);
+}
