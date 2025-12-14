@@ -37,14 +37,17 @@
     font-size: 2rem;
     font-weight: bold;
 }
-#unlist li p{
+#unlist li a p{
     font-size: 3rem;
     font-weight: bold;
     transition: all 0.3s ease-in-out 0s;
     
 }
+#unlist li a{
+    text-decoration: none;
+}
 
-#unlist li p:hover{
+#unlist li a p:hover{
     transform: scale(1.1);
 
 }
@@ -62,6 +65,10 @@ a:hover{
     display: flex;
     gap: 50px;
     
+}
+
+.atags a{
+    font-size: 2.5rem;
 }
 
 .content{
@@ -101,7 +108,7 @@ a:hover{
     width: auto;
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 0px 10px black;
+    box-shadow: 0px 0px 10px black;
     transition: all 0.2s ease-in 0s;
 }
 
@@ -109,14 +116,22 @@ img:hover{
     transform: scale(1.05);
 }
 
-.images li p{
-    font-size: 1.8rem;
+.images li a{
+    font-size: 1.5rem;
     margin-top: 10px;
     font-family: Verdana,Geneva,sans-serif;
-    color: #333;
+    color: #396f1a;
     text-align: center;
     max-width: 500px;
     font-weight: bold;
+    text-decoration: none;
+
+}
+
+.images li a:hover{
+    /* box-shadow: 0px 0px 10px yellow; */
+    color: rgb(14, 230, 173);
+
 }
 
 .footer{
@@ -144,9 +159,15 @@ img:hover{
 .bachira video{
     border-radius: 10px;
     box-shadow: 0 0px 10px black;
+    transition: all 0.2s ease-in 0s;
 
 }
 
+.bachira video:hover{
+    margin-left: 50px;
+    transform: scale(1.05);
+
+}
 .naruto{
     display: flex;
     flex-direction: row-reverse;
@@ -155,9 +176,16 @@ img:hover{
 
 .naruto video{
     border-radius: 10px;
-    box-shadow: 0 0px 10px black;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.2s ease-in 0s;
 
 }
+.naruto video:hover{
+    margin-left: 50px;
+    transform: scale(1.05);
+
+}
+
 .light{
     display: flex;
     flex-direction: row-reverse;
@@ -167,5 +195,13 @@ img:hover{
 .light video{
     border-radius: 10px;
     box-shadow: 0 0px 10px black;
+    transition: all 0.2s ease-in 0s;
 
 }
+
+.light video:hover{
+    margin-left: 50px;
+    transform: scale(1.05);
+}
+
+
