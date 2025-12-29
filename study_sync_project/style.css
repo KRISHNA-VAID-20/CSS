@@ -226,3 +226,50 @@ body{
     box-shadow: 0px 10px 60px rgb(8, 8, 82);
 
 }
+
+.qucik-links{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quick_link_p{
+    font-size: 2rem;
+    margin-top: 4rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+.link_section{
+    margin-top: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    /* border: solid; */
+    border-radius: 1rem;
+    background-color:rgb(234, 229, 229);
+    padding: 1rem 2rem;
+    transition: all 0.2s ease-in 0s;
+}
+
+.link_section:hover{
+    transform: scale(1.02);
+    box-shadow: 0px 10px 30px rgb(87, 87, 191);
+
+}
+
+.img_link{
+    width: 20px;    
+}
+
+.q_links{
+    font-size: 1.1rem;
+    color: rgb(74, 79, 83);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.q_links:hover{
+    color: rgb(88, 88, 226);
+}
