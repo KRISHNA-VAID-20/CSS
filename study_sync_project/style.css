@@ -273,3 +273,128 @@ body{
 .q_links:hover{
     color: rgb(88, 88, 226);
 }
+
+.card-section{
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    margin: 0 auto;
+    /* background-color:#fffbfb; */
+
+}
+
+.card-content{
+    width: 800px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.4rem;
+}
+
+.card-intro{
+    margin-top: 3rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: none;
+    border-radius: 10px;
+    /* background-color: aquamarine; */
+    padding: 0.6rem 1rem;
+    transition: all 0.2s ease-in 0ms;
+}
+
+.card-intro:hover{
+    transform: scale(1.02);
+    background-color:rgb(234, 229, 229);
+    box-shadow: 0px 10px 30px rgb(91, 165, 214);
+    margin-bottom: 2rem;
+}
+
+
+.card-para{
+    font-size: 1.1rem;
+    color: rgb(103, 98, 98);
+    margin-bottom: 3rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(192, 89, 89);
+    padding: 2rem 4rem;
+    transition: all 0.2s ease-in 0ms;
+}
+
+.card-container:hover{
+    transform: scale(1.03);
+
+}
+
+.card-container:nth-child(5){
+    margin-bottom: 2rem;
+}
+
+.card-container:nth-child(6){
+    margin-bottom: 2rem;
+}
+
+.card-container:nth-child(2){
+    background-color: rgb(234, 87, 129);
+}
+.card-container:nth-child(3){
+    background-color: rgb(42, 130, 101);
+}
+.card-container:nth-child(4){
+    background-color: rgb(87, 112, 234);
+}
+.card-container:nth-child(5){
+    background-color: rgb(34, 168, 201);
+}
+.card-container:nth-child(6){
+    background-color: rgb(234, 87, 87);
+}
+
+.cards-image{
+    width: 50px;
+    border: none;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #f3f2f2;
+}
+
+.cards-content{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.cards-heading{
+    color: #f3f2f2;
+    font-size: 1.3rem;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.cards-para{
+    font-size: 1rem;
+    color: #f3f2f2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
