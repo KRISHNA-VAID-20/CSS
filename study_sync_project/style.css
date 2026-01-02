@@ -32,7 +32,6 @@ body{
 
 .image_icon{
     width: 37px;
-    /* height: 26px; */
     padding-top: 1px;
 
 }
@@ -44,8 +43,6 @@ body{
 }
 
 .image_content:hover{
-    /* transform: scale(1.05); */
-    /* border: black; */
     padding: 0.5rem;
     border-radius: 8px;
     box-shadow: 0px 10px 40px rgb(87, 87, 191);
@@ -61,7 +58,6 @@ body{
 
 .image_text:hover{
     color: rgb(0, 0, 0);
-    /* color:rgb(90, 87, 191); */
 }
 
 .nav_container{
@@ -247,7 +243,6 @@ body{
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    /* border: solid; */
     border-radius: 1rem;
     background-color:rgb(234, 229, 229);
     padding: 1rem 2rem;
@@ -279,7 +274,6 @@ body{
     height: 100vh;
     text-align: center;
     margin: 0 auto;
-    /* background-color:#fffbfb; */
 
 }
 
@@ -305,7 +299,6 @@ body{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border: none;
     border-radius: 10px;
-    /* background-color: aquamarine; */
     padding: 0.6rem 1rem;
     transition: all 0.2s ease-in 0ms;
 }
@@ -328,6 +321,7 @@ body{
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 2rem;
+
 }
 
 .card-container{
@@ -358,6 +352,7 @@ body{
 
 .card-container:nth-child(2){
     background-color: rgb(234, 87, 129);
+
 }
 .card-container:nth-child(3){
     background-color: rgb(42, 130, 101);
@@ -398,3 +393,4 @@ body{
     color: #f3f2f2;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
